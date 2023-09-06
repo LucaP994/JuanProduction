@@ -1,0 +1,16 @@
+{
+    "it":{
+        "benvenuti":"Benvenuti a Catania",
+        "cliccaQui":"Clicca qui per entrare",
+        "home":"Home",
+        "chiSiamo":"Chi siamo",
+        "contattaci":"Contattaci"
+    },
+    "en":{
+        "benvenuti":"Welcome to Catania",
+        "cliccaQui":"Click here to enter",
+        "home":"Home",
+        "chiSiamo":"About Us",
+        "contattaci":"Contact Us"
+    }
+}

@@ -1,0 +1,30 @@
+<div id="navbar" class="navbar">
+    <!-- <h1 class="mb-0">{{bnbName}}</h1> -->
+    <div class="email">
+        <i class="far fa-envelope me-2"></i>
+        <p class="link mb-0">juanproduction@gmail.com</p>
+    </div>
+    <div class="pages">
+        <p class="mb-0 link" routerLink="/home">{{home}}</p>
+        <p class="mb-0 ms-5 me-5 link" routerLink="/chi-siamo">{{chiSiamo}}</p>
+        <p class="mb-0 link" routerLink="/contatti">{{contattaci}}</p>
+    </div>
+    <img src="../assets/images/logo.png" alt="" class="nav-logo">
+</div>
+<div id="ham-menu" class="navbar">
+    <!-- <h1 class="mb-0">{{bnbName}}</h1> -->
+    <img src="../assets/images/logo.png" alt="" class="nav-logo">
+    <i class="fas fa-bars" (click)="toggleMenu()"></i>
+</div>
+<div id="ham-pages" class="navbar">
+    <div id="pages-box">
+        <p class="mb-0 mt-4 link" routerLink="/home">{{home}}</p>
+        <p class="mb-2 mt-2 link" routerLink="/chi-siamo">{{chiSiamo}}</p>
+        <p class="mb-2 link" routerLink="/contatti">{{contattaci}}</p>
+        <div class="lang mb-4">
+            <span class="fi fi-it me-2 link" (click)="changeLang('it')"></span>
+            <span>&nbsp;|&nbsp;</span>
+            <span class="fi fi-gb ms-2 link" (click)="changeLang('en')"></span>
+        </div>
+    </div>
+</div>
