@@ -4,6 +4,9 @@
 body{
     font-family: 'Quicksand', sans-serif;
     background-color: #A0C37C;
+    background-image: url('./assets/images/pattern.png');
+    background-position: center;
+    background-size: cover;
 }
 #logo{
     width: 40%;
@@ -15,7 +18,7 @@ body{
 .nav-logo{
     position: absolute;
     right: 3%;
-    width: 4em;
+    width: 5rem;
     //background-image: url('./assets/images/logo.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -210,8 +213,55 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-.social-box .social{
-    width: 18%;
+.social-box .social-round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 20rem;
+    background: #ef9543;
     border-radius: 50%;
-    border: solid 15px #dddddd;
+    margin-bottom: 2rem;
+}
+.social-round img{
+    width: 70%;
+    filter: grayscale(100%)
+    brightness(10);
+}
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.social p{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.bg-chi-sono{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+    background-image: url("assets/images/studio.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.chi-sono-box{
+    background: #42503fc2;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 22rem;
+}
+.chi-sono-box h2{
+    font-weight: bold;
 }
